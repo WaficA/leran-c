@@ -1,0 +1,15 @@
+# Compiled objects
+*.o
+*.out
+*.exe
+
+# Generated binaries
+a.out
+
+# Editor files
+*.swp
+*~
+
+# Build directories
+build/
+dist/
