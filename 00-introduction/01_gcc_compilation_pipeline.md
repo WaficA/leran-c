@@ -50,6 +50,7 @@ Final executable binary.
 - Wshadow		//warns if a value shadows another in outer scope
 - Wstrict-prototypes	//enforces proper function declaration
 - pedantic		//strict C standard compliance
+- -fsanitize=address	//detect memory errors (eg. out-of-bound, use-after-free)
 - -g			//embed debug info so gbd can read it
 
 gcc -Wall -Wextra -g -o source source.c
