@@ -13,3 +13,4 @@ a.out
 # Build directories
 build/
 dist/
+binaries/
